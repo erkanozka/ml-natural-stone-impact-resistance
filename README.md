@@ -62,7 +62,7 @@ The dataset contains 51 observations (17 stone types × 3 thickness levels) comp
 
 The notebook was developed in Colab and uses Google Drive for I/O.
 
-1. Open the notebook in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/ml-natural-stone-impact-resistance/blob/main/pap_17stone_resimp_dual_ML.ipynb)
+1. Open the notebook in Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/erkanozka/ml-natural-stone-impact-resistance/blob/main/pap_17stone_resimp_dual_ML.ipynb)
 2. Place `res_imp_51obs_v4.xlsx` in `MyDrive/Armoren/pap_res_imp/data/` (or update the `BASE_DIR` variable in Cell 1 to your path).
 3. Run all cells (Runtime → Run all). The notebook will mount your Drive, install dependencies, and write outputs to `MyDrive/Armoren/pap_res_imp/outputs/`.
 
@@ -83,7 +83,7 @@ BASE_DIR = '.'                   # or wherever you cloned the repo
 Then:
 
 ```bash
-git clone https://github.com/USERNAME/ml-natural-stone-impact-resistance.git
+git clone https://github.com/erkanozka/ml-natural-stone-impact-resistance.git
 cd ml-natural-stone-impact-resistance
 python -m venv .venv && source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
