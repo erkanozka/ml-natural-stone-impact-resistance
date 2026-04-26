@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated paper."
+title: "ml-natural-stone-impact-resistance"
+abstract: >-
+  Reproducible code and dataset for a Sigmoid-Blended Physics-Informed Hybrid
+  (SBPIH) machine learning framework with Dual Compensatory Prediction Principle
+  (CPP) channels, predicting the impact resistance (BS EN 14158) of carbonate
+  dimension stones from rebound hardness, Knoop hardness, plate thickness, and
+  a SHAP-weighted compressive index.
+type: software
+authors:
+  - family-names: "Özkan"
+    given-names: "Erkan"
+    email: "erkanozka@gmail.com"
+    affiliation: "Afyon Kocatepe University"
+    orcid: "https://orcid.org/0000-0002-8089-2920"
+  - family-names: "Sarıışık"
+    given-names: "Gencay"
+    email: "gsariisik@harran.edu.tr"
+    affiliation: "Harran University"
+    orcid: "https://orcid.org/0000-0002-1112-3933"
+  - family-names: "Kundak"
+    given-names: "Ece"
+    email: "ekepekci@ogu.edu.tr"
+    affiliation: "Eskişehir Osmangazi University"
+    orcid: "https://orcid.org/0000-0001-5491-7058"
+license: MIT
+keywords:
+  - machine learning
+  - natural stone
+  - impact resistance
+  - physics-informed
+  - SBPIH
+  - dimension stone
+  - BS EN 14158
+preferred-citation:
+  type: article
+  title: >-
+    Impact resistance prediction of carbonate natural stones through a
+    physics-informed hybrid machine learning framework
+  authors:
+    - family-names: "Özkan"
+      given-names: "Erkan"
+    - family-names: "Sarıışık"
+      given-names: "Gencay"
+    - family-names: "Kundak"
+      given-names: "Ece"
+  journal: "Construction and Building Materials"
+  year: 2026
+  notes: "Submitted"
