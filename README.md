@@ -10,6 +10,7 @@ A Sigmoid-Blended Physics-Informed Hybrid (SBPIH) model with Dual Compensatory P
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19788670.svg)](https://doi.org/10.5281/zenodo.19788670)
 
 ---
 
@@ -43,7 +44,7 @@ ml-natural-stone-impact-resistance/
 
 ## Dataset
 
-The dataset contains 51 observations (17 stone types × 3 thickness levels) compiled from previously published experimental data by Sarıışık et al. (2017). Each observation includes 26 variables:
+The dataset contains 51 observations (17 stone types × 3 thickness levels) compiled from previously published experimental data by Sarıışık et al. (2016). Each observation includes 26 variables:
 
 - **Identifiers:** Type, StoneName, Lithology, Size, t (thickness, m), Height (drop height, m), n (drops to failure)
 - **Mechanical:** RE, RC, RC², v₀RC, RE·RC², CS (compressive strength), BS (bending strength), KH (Knoop hardness)
@@ -52,7 +53,7 @@ The dataset contains 51 observations (17 stone types × 3 thickness levels) comp
 - **Petrochemical:** LoI, K₂O, MgO, Fe₂O₃
 - **Target:** Ft_IR (impact resistance, kPa)
 
-> **Note on raw data provenance:** The raw experimental measurements were originally generated and reported in Sarıışık, G., Sarıışık, A., & Şentürk, A. (2016/2017). Cite the original source for the underlying experimental campaign.
+> **Note on raw data provenance:** The raw experimental measurements were originally generated and reported in Sarıışık, G., Özkan, E., Kundak, E., & Akdaş, H. (2016). *Classification of Parameters Affecting Impact Resistance of Natural Stones*. Journal of Testing and Evaluation, 44(4), 1650–1660. https://doi.org/10.1520/JTE20140276
 
 ---
 
@@ -107,7 +108,7 @@ Tested on Python 3.10+ with the package versions in `requirements.txt`. Boruta i
 
 ## Citation
 
-If you use this code or dataset, please cite:
+If you use this code or dataset, please cite both the paper and the archive:
 
 ```bibtex
 @article{ozkan2026impact,
@@ -118,9 +119,18 @@ If you use this code or dataset, please cite:
   year    = {2026},
   note    = {Submitted}
 }
+
+@software{ozkan2026impact_code,
+  title   = {ml-natural-stone-impact-resistance: SBPIH+CPP framework for impact
+             resistance prediction of carbonate natural stones},
+  author  = {{\"O}zkan, Erkan and Sar{\i}{\i}{\c{s}}{\i}k, Gencay and Kundak, Ece},
+  year    = {2026},
+  doi     = {10.5281/zenodo.19788670},
+  url     = {https://doi.org/10.5281/zenodo.19788670}
+}
 ```
 
-A Zenodo archive of this repository is available at: **DOI: 10.5281/zenodo.XXXXXXX** *(to be filled in once Zenodo deposit is created)*
+A Zenodo archive of this repository is available at: **DOI: [10.5281/zenodo.19788670](https://doi.org/10.5281/zenodo.19788670)**
 
 ---
 
@@ -134,7 +144,7 @@ A Zenodo archive of this repository is available at: **DOI: 10.5281/zenodo.XXXXX
 
 ## License
 
-This software is released under the [MIT License](LICENSE). The dataset is provided under the same terms; the underlying raw experimental measurements are subject to the citation of Sarıışık et al. (2017).
+This software is released under the [MIT License](LICENSE). The dataset is provided under the same terms; the underlying raw experimental measurements are subject to the citation of Sarıışık et al. (2016).
 
 ---
 
