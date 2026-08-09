@@ -1,0 +1,8 @@
+Stone,Nested_MAPE_pct,IR_kPa,NN_dist_sigma,Local_IR_spread_kPa,Regime
+M5,3.19,12.99,0.69,0.68,Identifiable
+M6,3.71,13.673,0.69,0.68,Identifiable
+M7,5.45,13.9,0.73,0.23,Identifiable
+M2,9.93,7.56,0.87,0.14,Identifiable
+M4,18.75,12.293,1.09,4.6,Collision (under-predicted)
+M1,20.33,5.803,1.96,0.0,Isolated (extrapolation)
+M3,21.82,7.697,0.87,4.6,Collision (over-predicted)

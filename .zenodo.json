@@ -1,0 +1,16 @@
+{
+  "title": "Physics-informed hybrid machine learning for predicting impact resistance of carbonate natural building stones (PHy-CPP): code and data",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "version": "2.0.2",
+  "description": "<p>Reproducible code and dataset for the paper <em>\"Physics-informed hybrid machine learning for predicting impact resistance of carbonate natural building stones\"</em> (Özkan, Sarıışık &amp; Kundak, 2026).</p><p>The <strong>PHy-CPP</strong> model augments an Extra Trees regressor with two physics-informed compensatory channels &mdash; one driven by Impact Strength (IS) and one by Fe<sub>2</sub>O<sub>3</sub> content &mdash; blended through dual sigmoid functions, to predict the impact resistance (BS EN 14158) of carbonate dimension stones from rebound hardness, Knoop hardness, plate thickness, and a SHAP-weighted compressive index.</p><p>Metrics are reported under <strong>nested, leakage-controlled Leave-One-Group-Out cross-validation</strong> (17 folds, n = 51). Headline dual-channel performance: R² = 0.9623, MAPE = 7.83%, MAE = 0.717 kPa, RMSE = 0.993 kPa; bootstrap mean R² = 0.9615, 95% CI [0.948, 0.972]. The pipeline is fully deterministic (SEED = 42, N_EST = 500) under the pinned environment in <code>requirements.txt</code> (Python 3.12, scikit-learn 1.6.1).</p>",
+  "creators": [
+    {"name": "Özkan, Erkan", "affiliation": "Afyon Kocatepe University", "orcid": "0000-0002-8089-2920"},
+    {"name": "Sarıışık, Gencay", "affiliation": "Harran University", "orcid": "0000-0002-1112-3933"},
+    {"name": "Kundak, Ece", "affiliation": "Eskişehir Osmangazi University", "orcid": "0000-0001-5491-7058"}
+  ],
+  "keywords": ["machine learning", "natural stone", "impact resistance", "physics-informed", "PHy-CPP", "dimension stone", "BS EN 14158"],
+  "notes": "Associated research article: Construction and Building Materials. Raw experimental measurements were originally reported by Sarıışık et al. (2016/2017); please cite that source for the underlying experimental campaign."
+}

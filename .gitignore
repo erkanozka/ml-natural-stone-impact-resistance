@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+# OS
+.DS_Store
+Thumbs.db
+# Notebook exec artifacts (keep source .ipynb; ignore executed copies)
+*_executed.ipynb
+*_partial.ipynb
+# Local scratch
+/tmp/
+*.log

@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated article and this archive."
+title: "PHy-CPP: physics-informed hybrid ML for impact resistance of carbonate natural building stones — code and data"
+abstract: >-
+  Code and dataset for a physics-informed hybrid model (Extra Trees + IS-gated sigmoid blend +
+  dual Gauss-gated compensatory prediction) that predicts the impact resistance (BS EN 14158) of
+  carbonate natural building stones under leakage-free nested Leave-One-Group-Out cross-validation.
+type: software
+authors:
+  - family-names: "Özkan"
+    given-names: "Erkan"
+    orcid: "https://orcid.org/0000-0002-8089-2920"
+    affiliation: "Afyon Kocatepe University"
+  - family-names: "Sarıışık"
+    given-names: "Gencay"
+    orcid: "https://orcid.org/0000-0002-1112-3933"
+    affiliation: "Harran University"
+  - family-names: "Kundak"
+    given-names: "Ece"
+    orcid: "https://orcid.org/0000-0001-5491-7058"
+    affiliation: "Eskişehir Osmangazi University"
+version: "2.0.2"
+license: MIT
+keywords:
+  - machine learning
+  - natural stone
+  - impact resistance
+  - physics-informed
+  - PHy-CPP
+  - nested cross-validation
+  - BS EN 14158
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19788669"
+    description: "Zenodo archive"
+  - type: url
+    value: "https://github.com/erkanozka/ml-natural-stone-impact-resistance"
+    description: "Source repository"
+preferred-citation:
+  type: article
+  title: "Physics-informed hybrid machine learning for predicting impact resistance of carbonate natural building stones"
+  authors:
+    - family-names: "Özkan"
+      given-names: "Erkan"
+    - family-names: "Sarıışık"
+      given-names: "Gencay"
+    - family-names: "Kundak"
+      given-names: "Ece"
+  year: 2026
+  notes: "Associated peer-reviewed research article."

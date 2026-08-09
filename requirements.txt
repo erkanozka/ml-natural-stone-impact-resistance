@@ -1,0 +1,11 @@
+# Reproduction environment for PHy-CPP (Python 3.12)
+# scikit-learn is pinned exactly (controls Extra-Trees RNG / determinism).
+numpy>=1.26,<2.2
+pandas>=2.2,<2.3
+scikit-learn==1.6.1
+scipy>=1.13
+statsmodels>=0.14
+openpyxl>=3.1
+shap>=0.44
+Boruta==0.4.3
+xgboost>=2.0
